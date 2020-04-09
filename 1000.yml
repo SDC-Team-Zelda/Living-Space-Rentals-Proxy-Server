@@ -1,5 +1,5 @@
 config:
-  target: "http://localhost:3002"
+  target: "http://localhost:3000"
   phases:
     - duration: 60
       arrivalRate: 1000
@@ -14,4 +14,4 @@ scenarios:
   - name: "GET listings"
     flow:
       - get:
-          url: "/api/intro/?id={{ id }}"
+          url: "/?id={{ id }}"
