@@ -1,5 +1,5 @@
 {
-  "name": "hrr44-front-end-capstone",
+  "name": "living-space-proxy",
   "description": "> Project description",
   "author": "",
   "license": "ISC",
@@ -7,7 +7,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "pm2 start ./server/server.js",
+    "start": "node ./server/server.js",
     "devStart": "nodemon ./server/server.js"
   },
   "dependencies": {
@@ -21,9 +21,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
-  },
+  "devDependencies": {},
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "repository": {
